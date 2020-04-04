@@ -19,13 +19,13 @@
 		2DCD954D1E0B4F2C00145EB5 /* split_jsbundleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* split_jsbundleTests.m */; };
 		4BA630A0D6CE8D566D7BCB8D /* libPods-split_jsbundle-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8656D5B2075AE784B4D169B6 /* libPods-split_jsbundle-tvOS.a */; };
 		4D6C6356B4DE9D3DEA649D63 /* libPods-split_jsbundle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 380010644D412842AC7D9C11 /* libPods-split_jsbundle.a */; };
+		503D43E9243880C70029EDEC /* RNJSLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 503D43E7243880C70029EDEC /* RNJSLoader.m */; };
+		503D43EA243880C70029EDEC /* RNNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 503D43E8243880C70029EDEC /* RNNavigation.m */; };
 		50DE84582430BBB300253094 /* ReactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DE84562430BBB300253094 /* ReactViewController.m */; };
-		50DE845B2430BC1300253094 /* RNJSLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DE845A2430BC1300253094 /* RNJSLoader.m */; };
 		50DE84602430D4D400253094 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 50DE845C2430D4D400253094 /* assets */; };
 		50DE84612430D4D400253094 /* main_app.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 50DE845D2430D4D400253094 /* main_app.jsbundle */; };
 		50DE84622430D4D400253094 /* sub_app.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 50DE845E2430D4D400253094 /* sub_app.jsbundle */; };
 		50DE84632430D4D400253094 /* common.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 50DE845F2430D4D400253094 /* common.jsbundle */; };
-		50DE84662430D78300253094 /* RNNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DE84652430D78300253094 /* RNNavigation.m */; };
 		B94389D363FE28F5DF265502 /* libPods-split_jsbundle-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F53AA80051C80B210F9CCD9 /* libPods-split_jsbundle-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
@@ -63,16 +63,16 @@
 		2D02E4901E0B4A5D006451C7 /* split_jsbundle-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "split_jsbundle-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F53AA80051C80B210F9CCD9 /* libPods-split_jsbundle-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-split_jsbundle-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		380010644D412842AC7D9C11 /* libPods-split_jsbundle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-split_jsbundle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		503D43E5243880C70029EDEC /* RNNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNNavigation.h; path = split_jsbundle/RNNavigation.h; sourceTree = "<group>"; };
+		503D43E6243880C70029EDEC /* RNJSLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNJSLoader.h; path = split_jsbundle/RNJSLoader.h; sourceTree = "<group>"; };
+		503D43E7243880C70029EDEC /* RNJSLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNJSLoader.m; path = split_jsbundle/RNJSLoader.m; sourceTree = "<group>"; };
+		503D43E8243880C70029EDEC /* RNNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNNavigation.m; path = split_jsbundle/RNNavigation.m; sourceTree = "<group>"; };
 		50DE84552430BBB300253094 /* ReactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReactViewController.h; path = split_jsbundle/ReactViewController.h; sourceTree = "<group>"; };
 		50DE84562430BBB300253094 /* ReactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReactViewController.m; path = split_jsbundle/ReactViewController.m; sourceTree = "<group>"; };
-		50DE84592430BC1300253094 /* RNJSLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNJSLoader.h; sourceTree = "<group>"; };
-		50DE845A2430BC1300253094 /* RNJSLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNJSLoader.m; sourceTree = "<group>"; };
 		50DE845C2430D4D400253094 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = split_jsbundle/assets; sourceTree = "<group>"; };
 		50DE845D2430D4D400253094 /* main_app.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = main_app.jsbundle; path = split_jsbundle/main_app.jsbundle; sourceTree = "<group>"; };
 		50DE845E2430D4D400253094 /* sub_app.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = sub_app.jsbundle; path = split_jsbundle/sub_app.jsbundle; sourceTree = "<group>"; };
 		50DE845F2430D4D400253094 /* common.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = common.jsbundle; path = split_jsbundle/common.jsbundle; sourceTree = "<group>"; };
-		50DE84642430D78300253094 /* RNNavigation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNNavigation.h; sourceTree = "<group>"; };
-		50DE84652430D78300253094 /* RNNavigation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNNavigation.m; sourceTree = "<group>"; };
 		6E879B09632CCB5E10F43C6D /* Pods-split_jsbundleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-split_jsbundleTests.debug.xcconfig"; path = "Target Support Files/Pods-split_jsbundleTests/Pods-split_jsbundleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		73EA18B330CC77110CDA24FE /* Pods-split_jsbundle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-split_jsbundle.release.xcconfig"; path = "Target Support Files/Pods-split_jsbundle/Pods-split_jsbundle.release.xcconfig"; sourceTree = "<group>"; };
 		8656D5B2075AE784B4D169B6 /* libPods-split_jsbundle-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-split_jsbundle-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,12 +145,12 @@
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
-				50DE84592430BC1300253094 /* RNJSLoader.h */,
-				50DE845A2430BC1300253094 /* RNJSLoader.m */,
 				50DE84552430BBB300253094 /* ReactViewController.h */,
+				503D43E6243880C70029EDEC /* RNJSLoader.h */,
+				503D43E7243880C70029EDEC /* RNJSLoader.m */,
+				503D43E5243880C70029EDEC /* RNNavigation.h */,
+				503D43E8243880C70029EDEC /* RNNavigation.m */,
 				50DE84562430BBB300253094 /* ReactViewController.m */,
-				50DE84642430D78300253094 /* RNNavigation.h */,
-				50DE84652430D78300253094 /* RNNavigation.m */,
 				50DE845C2430D4D400253094 /* assets */,
 				50DE845F2430D4D400253094 /* common.jsbundle */,
 				50DE845D2430D4D400253094 /* main_app.jsbundle */,
@@ -561,9 +561,9 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				50DE84582430BBB300253094 /* ReactViewController.m in Sources */,
-				50DE84662430D78300253094 /* RNNavigation.m in Sources */,
+				503D43EA243880C70029EDEC /* RNNavigation.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
-				50DE845B2430BC1300253094 /* RNJSLoader.m in Sources */,
+				503D43E9243880C70029EDEC /* RNJSLoader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
