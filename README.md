@@ -32,6 +32,11 @@ node diff.js ./build/android/common.jsbundle ./build/android/main_app_all.jsbund
 node diff.js ./build/android/common.jsbundle ./build/android/sub_app_all.jsbundle ./build/android/sub_app.jsbundle
 ```
 
-#### To be done
-
-Support Android
+#### 解读：
+1. [React Native 拆包实践1 - bundle server的启动过程](https://www.jianshu.com/p/d1d77c709053)
+2. [React Native 拆包实践2 - react-native start](https://www.jianshu.com/p/473dddd751c8)
+3. [React Native 拆包实践3 - react-native bundle](https://www.jianshu.com/p/359721b85f12)
+4. [React Native 拆包实践4 - createModuleIdFactory](https://www.jianshu.com/p/717f4cb7e682)
+5. [React Native 拆包实践5 - iOS 按需加载jsbundle](https://www.jianshu.com/p/832d7c01b101)
+6. [React Native 拆包实践6 - Android 启动流程](https://www.jianshu.com/p/89757051ffe5)
+7. [React Native 拆包实践7 - Android 按需加载jsbundle](https://www.jianshu.com/p/ce80c2924292)
